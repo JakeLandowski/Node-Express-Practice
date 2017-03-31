@@ -1,8 +1,11 @@
 {
-  "name": "nodeexpresspractice",
+  "name": "nodeprograms",
   "version": "1.0.0",
-  "description": "practicing node express server stuff",
-  "main": "server.js",
+  "dependencies":{
+      "express" : "4.15.2"
+  },
+  "description": "",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -11,13 +14,8 @@
     "type": "git",
     "url": "git+https://github.com/JakeLandowski/Node-Express-Practice.git"
   },
-  "keywords": [
-    "node",
-    "express",
-    "nodejs",
-    "expressjs"
-  ],
-  "author": "Jacob Landowski",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JakeLandowski/Node-Express-Practice/issues"
